@@ -1,3 +1,20 @@
 main {
   min-height: 80vh;
 }
+
+
+.productTitle {
+  color: #7c7c7c;
+  transition: .3s ease-in-out;
+  font-size: large;
+}
+
+.productTitle:hover {
+  color: #0e294d;
+  text-decoration: underline;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
