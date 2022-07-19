@@ -31,7 +31,7 @@ const importData = async () => {
         user: adminUser,
       };
     });
-
+ 
     await Product.insertMany(sampleProducts);
 
     console.log("Data Imported!".green.inverse);
